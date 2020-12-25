@@ -1,0 +1,30 @@
+export PYTHONPATH=/Users/hanrahan/lib/site-packages
+
+#export CS107E=/Users/hanrahan/cs107e/cs107e.github.io/cs107e
+
+export CRUST=/Users/hanrahan/git/crust
+export MAGMA=/Users/hanrahan/git/magma
+
+export GENESIS_HOME=/Users/hanrahan/git/genesis2
+
+#export NODE_PATH=/usr/local/lib/node_modules:/usr/local/lib/node
+
+export QHOME=$HOME/software/q
+
+# GO
+export GOROOT=/usr/local/opt/go/libexec
+export GOARCH=amd64
+export GOPATH=$HOME/go
+
+#setenv ROKU "192.168.1.9"
+
+#export LD_LIBRARY_PATH=/usr/local/lib
+#export C_INCLUDE_PATH=/usr/local/include
+
+#LDFLAGS=-L/usr/local/Cellar/qt/lib
+#CPPFLAGS=-I/usr/local/Cellar/qt/include
+
+#export DYLD_LIBRARY_PATH=~/git/coreir/lib
+
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
