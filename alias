@@ -1,5 +1,57 @@
+# SET ALIASES
+
 alias h='history 24'
 alias z='clear'
 alias pd='pushd'
 alias lm='/bin/ls -lt | more'
-alias make='make -j 4'
+#alias make='make -j 4'
+
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+
+# Mac OSX commands
+alias eject='drutil eject'
+alias lsusb2='system_profiler SPUSBDataType'
+alias opentext='open -a TextEdit'
+
+alias fiasco='ssh fiasco.local'
+
+#disabled port forwarding
+#alias remotefiasco='ssh 76.21.6.23'
+
+alias octopi='ssh pi@octopi3.local'
+
+#alias ferrix='ssh ferrix.local'
+
+# 2121 broadway - port forwarding is not enabled
+#alias lauda='ssh lauda.local'
+#alias remotelauaa='ssh 73.170.116.90'
+
+#alias openscad=/Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD
+
+#alias inkscape=/Applications/Inkscape.app/Contents/MacOS/inkscape 
+
+#alias slic3r=/Applications/Slic3r.app/Contents/MacOS/Slic3r
+
+alias chrome="open -a \"Google Chrome\""
+
+alias purpleair="chrome https://www.purpleair.com/map?opt=1/mAQI/a10/cC0&select=5868#13.93/37.38337/-122.20557"
+
+alias lr='kasa --bulb --alias "Living Room"'
+#alias rbr='kasa --bulb --alias PV\ Bedroom\ \(Right\)'
+alias rbr='kasa --bulb --host 10.0.0.110'
+alias lbr='kasa --bulb --host 10.0.0.176'
+# left umbrella
+alias sl='kasa --bulb --host 10.0.0.126'
+# right umbrella
+alias sr='kasa --bulb --host 10.0.0.42'
+# eurorack lamp
+alias deskr='kasa --bulb --host 10.0.0.13'
+# zoom workstation lamp
+alias zoom='kasa --bulb --host 10.0.0.53'
+# shop plug
+alias shop='kasa --plug --host 10.0.0.5'
+
+# studio plug
+# corded lamp plug
+
+#alias d='conda deactivate'
